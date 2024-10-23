@@ -1,0 +1,2033 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\,";
+    mso-displayed-thousand-separator:"\.";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="12">
+            <img src="https://rmhdzr.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="12">
+            <a href="https://rmhdzr.atlassian.net/issues/?jql=project+%3D+%22RMHR1G3S%22+ORDER+BY+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="12">
+            Mostrando <strong>34</strong> incidencias como en <strong>22/oct/24 9:43 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Tipo de Incidencia
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Clave
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Resumen
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Persona asignada
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Informador
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Prioridad
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Estado
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolución
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Creada
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-description" data-id="description">
+                                                        Descripción
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-environment" data-id="environment">
+                                                        Entorno
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-thumbnail" data-id="thumbnail">
+                                                        Imágenes
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10033" rel="10033" data-issuekey="RMHR1G3S-34" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-34" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-34">RMHR1G3S-34</a>
+</td>
+                                            <td class="summary"><p>
+                No se abre la ventana &quot;Tarjeta agregada&quot; al hacer clic en el botón después de agregar licencia
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 6:02 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección 1917 Bay St en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 615 S Broadway en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar licencia de conducir<br/>
+<br/>
+“Nombre” Sam “Apellido” Williams “Fecha de nacimiento” 24.04.1889 “Número” 01 01 123456<br/>
+<br/>
+# Hacer clic en el botón de reservar<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Texto en el botón &quot;Reservar&quot;<br/>
+Agregar método de pago y reservar<br/>
+El recorrido será de ... kilómetros y se hará en ... minutos<br/>
+<br/>
+Al hacer clic en el botón, se abre la ventana &quot;Tarjeta agregada&quot;<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al hacer clic en el botón, se abre la ventana &quot;Automóvil reservado&quot;<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error ventana automóvil reservado firefox.png|width=1433,height=573,alt=&quot;Captura de pantalla error ventana automóvil reservado firefox.png&quot;!
+    </td>
+                                            <td class="environment">            Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-34" href="https://rmhdzr.atlassian.net/secure/attachment/10046/Captura+de+pantalla+error+ventana+autom%C3%B3vil+reservado+firefox.png">
+            Captura de pantalla error ventana automóvil reservado firefox.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10032" rel="10032" data-issuekey="RMHR1G3S-33" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-33" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-33">RMHR1G3S-33</a>
+</td>
+                                            <td class="summary"><p>
+                No sucede nada al hacer clic e el botón de reserva una vez que se agrega una tarjeta
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 5:55 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección 1917 Bay St en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 615 S Broadway en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+<br/>
+“Número de tarjeta” 1234 4321 1408 “Código” 12<br/>
+<br/>
+# Hacer clic en el botón de reservar<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Texto en el botón &quot;Reservar&quot;<br/>
+Agregar licencia de conducir y reservar<br/>
+<br/>
+El recorrido será de ... kilómetros y se hará en ... minutos<br/>
+<br/>
+Al hacer clic en el botón, se abre la ventana &quot;Licencia de conducir agregada&quot;<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al hacer clic en el botón de reserva no se abre ninguna ventana.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error botón agregar licencia firefox.png|width=1430,height=566,alt=&quot;Captura de pantalla error botón agregar licencia firefox.png&quot;!
+    </td>
+                                            <td class="environment">            Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-33" href="https://rmhdzr.atlassian.net/secure/attachment/10045/Captura+de+pantalla+error+bot%C3%B3n+agregar+licencia+firefox.png">
+            Captura de pantalla error botón agregar licencia firefox.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10031" rel="10031" data-issuekey="RMHR1G3S-32" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-32" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-32">RMHR1G3S-32</a>
+</td>
+                                            <td class="summary"><p>
+                No aparece la terminación de las tarjetas cuando son agregadas
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 5:44 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir 123412341234 en el campo “Número de tarjeta”  <br/>
+# Introducir 22 en el campo “Código”  <br/>
+# Hacer clic en el botón “Agregar tarjeta”<br/>
+# Agregar otra tarjeta bancaria<br/>
+# Introducir 123412344321 en el campo “Número de tarjeta”  <br/>
+# Introducir 12 en el campo “Código”  <br/>
+# Hacer clic en el botón “Agregar tarjeta”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Aparecen las terminaciones de las tarjetas a un lado de cada tarjeta agregada.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+No aparecen las terminaciones de las tarjetas a un lado de cada tarjeta.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error terminación de tarjetas chrome.png|width=1424,height=513,alt=&quot;Captura de pantalla error terminación de tarjetas chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-32" href="https://rmhdzr.atlassian.net/secure/attachment/10044/Captura+de+pantalla+error+terminaci%C3%B3n+de+tarjetas+chrome.png">
+            Captura de pantalla error terminación de tarjetas chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10030" rel="10030" data-issuekey="RMHR1G3S-31" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-31" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-31">RMHR1G3S-31</a>
+</td>
+                                            <td class="summary"><p>
+                Se habilita &quot;Agregar tarjeta&quot; al ingresar un número en el campo &quot;Código&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 5:35 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir 1 en el campo “Código”  <br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Al introducir 1 número en el campo &quot;Código&quot; no se habilita el botón &quot;Agregar tarjeta&quot;.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al introducir 1 número en el campo &quot;Código&quot; se habilita el botón &quot;Agregar tarjeta&quot;.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error 1 número en el campo código chrome.png|width=1430,height=524,alt=&quot;Captura de pantalla error 1 número en el campo código chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-31" href="https://rmhdzr.atlassian.net/secure/attachment/10043/Captura+de+pantalla+error+1+n%C3%BAmero+en+el+campo+c%C3%B3digo+chrome.png">
+            Captura de pantalla error 1 número en el campo código chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10029" rel="10029" data-issuekey="RMHR1G3S-30" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-30" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-30">RMHR1G3S-30</a>
+</td>
+                                            <td class="summary"><p>
+                Al introducto 11 números en el campo &quot;Número de tarjeta&quot; el botón &quot;Agregar tarjeta&quot; se habilita
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 5:30 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir 1234123412 en el campo “Número de tarjeta”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Al introducir 11 números en el campo &quot;Número de tarjeta&quot; no se habilita el botón &quot;Agregar tarjeta&quot;.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al introducir 11 números en el campo &quot;Número de tarjeta&quot; se habilita el botón &quot;Agregar tarjeta&quot;.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error 11 números número de tarjeta chrome.png|width=1422,height=526,alt=&quot;Captura de pantalla error 11 números número de tarjeta chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-30" href="https://rmhdzr.atlassian.net/secure/attachment/10042/Captura+de+pantalla+error+11+n%C3%BAmeros+n%C3%BAmero+de+tarjeta+chrome.png">
+            Captura de pantalla error 11 números número de tarjeta chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10028" rel="10028" data-issuekey="RMHR1G3S-29" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-29" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-29">RMHR1G3S-29</a>
+</td>
+                                            <td class="summary"><p>
+                Es posible agregar los números 00 en el campo &quot;Código&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 5:24 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir 00 en el campo “Código”  <br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+No es posible introducir &quot;00&quot; en el campo código<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Es posible introducir &quot;00&quot; en el campo código<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error 00 campo código chrome.png|width=1413,height=529,alt=&quot;Captura de pantalla error 00 campo código chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-29" href="https://rmhdzr.atlassian.net/secure/attachment/10041/Captura+de+pantalla+error+00+campo+c%C3%B3digo+chrome.png">
+            Captura de pantalla error 00 campo código chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10027" rel="10027" data-issuekey="RMHR1G3S-28" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-28" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-28">RMHR1G3S-28</a>
+</td>
+                                            <td class="summary"><p>
+                Opciones incorrecta requisitos del pedido tarifa casual
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 5:17 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Seleccionar tarifa “Casual”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Al seleccionar la tarifa &quot;Casual&quot; aparecen los requisitos del pedido con opciones para seleccionar Cargador de teléfono y Luz de discoteca Disponible en la tarifa de &quot;Lujo&quot;<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al seleccionar la tarifa &quot;Casual&quot; aparecen los requisitos del pedido con opciones para seleccionar Cargador de teléfono y Música ligera Disponible en la tarifa de &quot;Lujo&quot;<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error requisitos del pedido tarifa casual firefox.png|width=1415,height=562,alt=&quot;Captura de pantalla error requisitos del pedido tarifa casual firefox.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error requisitos del pedido tarifa casual chrome.png|width=1427,height=510,alt=&quot;Captura de pantalla error requisitos del pedido tarifa casual chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-28" href="https://rmhdzr.atlassian.net/secure/attachment/10039/Captura+de+pantalla+error+requisitos+del+pedido+tarifa+casual+chrome.png">
+            Captura de pantalla error requisitos del pedido tarifa casual chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10026" rel="10026" data-issuekey="RMHR1G3S-27" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-27" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-27">RMHR1G3S-27</a>
+</td>
+                                            <td class="summary"><p>
+                Opciones incorrectas requisitos de pedido tarifa &quot;De lujo&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 5:10 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Seleccionar tarifa “De lujo”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Al seleccionar la tarifa &quot;De lujo&quot; aparecen los requisitos del pedido con opciones para seleccionar Luz de discoteca o relajante, debajo las opciones de bebidas para los pasajeros o fruta para los pasajeros y debajo opción para agregar cantidad de copas frías.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al seleccionar la tarifa &quot;De lujo&quot; aparecen los requisitos del pedido con opciones para seleccionar Música ligera, debajo Diviertete en negritas y las opciones de champán para pasajeros y vino para pasajeros  y debajo opción para agregar cantidad de Lentes geniales.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error requisitos del pedido tarifa de lujo chrome.png|width=1409,height=518,alt=&quot;Captura de pantalla error requisitos del pedido tarifa de lujo chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error reqiusitos del pedido tarifa de lujo firefox.png|width=1427,height=567,alt=&quot;Captura de pantalla error reqiusitos del pedido tarifa de lujo firefox.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-27" href="https://rmhdzr.atlassian.net/secure/attachment/10038/Captura+de+pantalla+error+reqiusitos+del+pedido+tarifa+de+lujo+firefox.png">
+            Captura de pantalla error reqiusitos del pedido tarifa de lujo firefox.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10025" rel="10025" data-issuekey="RMHR1G3S-26" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-26" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-26">RMHR1G3S-26</a>
+</td>
+                                            <td class="summary"><p>
+                Opciones incorrecta en opciones de pedido tarifa &quot;Camping&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 5:02 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Seleccionar tarifa “Camping”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Al seleccionar la tarifa &quot;Camping&quot; aparecen los requisitos del pedido con opciones para seleccionar cantidad de Spray antimosquitos y saco de dormir y la opción de Luz de discoteca Disponible en la tarifa &quot;De lujo&quot;.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al seleccionar la tarifa &quot;Camping&quot; aparecen los requisitos del pedido con opciones para seleccionar cantidad de Repelente de mosquitos y saco de dormir y la opción de Música ligera Disponible en la tarifa &quot;De lujo&quot;.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error requisitos de pedido tarifa camping chrome.png|width=1427,height=521,alt=&quot;Captura de pantalla error requisitos de pedido tarifa camping chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error requisitos de pedido tarifa camping firefox.png|width=940,height=695,alt=&quot;Captura de pantalla error requisitos de pedido tarifa camping firefox.png&quot;!
+    </td>
+                                            <td class="environment"></td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-26" href="https://rmhdzr.atlassian.net/secure/attachment/10035/Captura+de+pantalla+error+requisitos+de+pedido+tarifa+camping+chrome.png">
+            Captura de pantalla error requisitos de pedido tarifa camping chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10024" rel="10024" data-issuekey="RMHR1G3S-25" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-25" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-25">RMHR1G3S-25</a>
+</td>
+                                            <td class="summary"><p>
+                Información incorrecta en la tarifa &quot;De lujo&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 4:54 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Seleccionar tarifa “De lujo”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Al seleccionar la tarifa &quot;De lujo&quot; aparece Porsche 911 en negritas color negro, debajo Brillo, poder, esplendor en color negro, debajo el ícono de una persona caminando con la duración del viaje desde el automóvil hasta el punto &quot;Desde&quot; y el tiempo de espera gratuito en color gris, debajo el ícono del automóvil en color verde con brillo y debajo música ligera · bebidas para los pasajeros.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al seleccionar la tarifa &quot;De lujo&quot; aparece Porsche 911 en negritas color negro, debajo Brillo, poder, esplendor en color negro, debajo la duración del viaje desde el automóvil hasta el punto &quot;Desde&quot; y el tiempo de espera gratuito en color gris, debajo el ícono del automóvil en color verde y debajo música ligera · bebidas para invitados.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error información tarifa de lujo chrome.png|width=1409,height=525,alt=&quot;Captura de pantalla error información tarifa de lujo chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error información tarifa de lujo firefox.png|width=1428,height=572,alt=&quot;Captura de pantalla error información tarifa de lujo firefox.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-25" href="https://rmhdzr.atlassian.net/secure/attachment/10033/Captura+de+pantalla+error+informaci%C3%B3n+tarifa+de+lujo+chrome.png">
+            Captura de pantalla error información tarifa de lujo chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10023" rel="10023" data-issuekey="RMHR1G3S-24" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-24" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-24">RMHR1G3S-24</a>
+</td>
+                                            <td class="summary"><p>
+                Información incorrecta en la tarifa de &quot;camping&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 26/may/24 4:43 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Seleccionar tarifa “Camping”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Al seleccionar la tarifa &quot;&quot;Camping&quot; aparece Audi A3 Sedan en negritas color negro, debajo Para viajar en color negro, debajo el ícono de una persona caminando con la duración del viaje desde el automóvil hasta el punto &quot;Desde&quot; y el tiempo de espera gratuito en color gris, debajo el ícono del automóvil en color azul con equipaje en la parrilla del techo y debajo puertas Bluetooth · Equipo de acampada en color gris.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al seleccionar la tarifa &quot;&quot;Camping&quot; aparece Audi A3 Sedan en negritas color negro, debajo Para viajar en color negro, la duración del viaje desde el automóvil hasta el punto &quot;Desde&quot; y el tiempo de espera gratuito en color gris, debajo el ícono del automóvil en color azul y debajo Bluetooth-puertas · Equipo de camping en color gris.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error información tarifa camping firefox.png|width=1415,height=572,alt=&quot;Captura de pantalla error información tarifa camping firefox.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error información tarifa camping chrome.png|width=1432,height=517,alt=&quot;Captura de pantalla error información tarifa camping chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-24" href="https://rmhdzr.atlassian.net/secure/attachment/10031/Captura+de+pantalla+error+informaci%C3%B3n+tarifa+camping+chrome.png">
+            Captura de pantalla error información tarifa camping chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10022" rel="10022" data-issuekey="RMHR1G3S-23" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-23" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-23">RMHR1G3S-23</a>
+</td>
+                                            <td class="summary"><p>
+                No aparece el número la marca ni el número de placa del automóvil
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 25/may/24 3:38 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar licencia de conducir<br/>
+<br/>
+“Nombre” Sam “Apellido” Williams “Fecha de nacimiento” 24.04.1889 “Número” 01 01 123456<br/>
+<br/>
+# Agregar tarjeta bancaria<br/>
+<br/>
+“Número de tarjeta” 1234 4321 1408 “Código” 12<br/>
+<br/>
+# Hacer clic en el botón de reserva<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Al hacer clic en el botón &quot;Reservar&quot; aparecera una ventana emergente con el título &quot;Automóvil reservado&quot; con la marca y número de placa, ícono del vehículo, un botón al centro de la ventana circular de color gris con una X blanca al centro y la palabra &quot;cancelar&quot;, la dirección del automóvil y más información sobre el viaje.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al hacer clic en el botón &quot;Reservar&quot; aparecera una ventana emergente con el título &quot;Automóvil reservado&quot; con el ícono del vehículo, un botón al centro de la ventana circular de color gris con una X blanca al centro y la palabra &quot;cancelar&quot;, la dirección del automóvil y más información sobre el viaje. No aparece la marca ni el número de placa del automóvil.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error marca y número de placa chrome.png|width=1427,height=524,alt=&quot;Captura de pantalla error marca y número de placa chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error marca y placa.png|width=1431,height=810,alt=&quot;Captura de pantalla error marca y placa.png&quot;!
+    </td>
+                                            <td class="environment">             Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-23" href="https://rmhdzr.atlassian.net/secure/attachment/10029/Captura+de+pantalla+error+marca+y+n%C3%BAmero+de+placa+chrome.png">
+            Captura de pantalla error marca y número de placa chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10021" rel="10021" data-issuekey="RMHR1G3S-22" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-22" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-22">RMHR1G3S-22</a>
+</td>
+                                            <td class="summary"><p>
+                Botón cortado en chrome
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 25/may/24 3:12 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+El estado inicial del formulario de pedido: se elige la tarifa &quot;Casual&quot; y los campos &quot;Agregar licencia de conducir&quot; y &quot;Método de pago&quot; están vacíos y debajo hay un botón azul que dice &quot;Agregar licencia de conducir y reservar&quot; con letras blancas en negritas y debajo en el mismo botón con información de la distancia y duración del recorrido en letras balncas.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+En chrome el botón  &quot;Agregar licencia de conducir y reservar&quot; con letras blancas en negritas y debajo en el mismo botón con información de la distancia y duración del recorrido en letras balncas se ve cortado.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error botón cortado chrome.png|width=1424,height=526,alt=&quot;Captura de pantalla error botón cortado chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-22" href="https://rmhdzr.atlassian.net/secure/attachment/10030/Captura+de+pantalla+error+bot%C3%B3n+cortado+chrome.png">
+            Captura de pantalla error botón cortado chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10020" rel="10020" data-issuekey="RMHR1G3S-21" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-21" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-21">RMHR1G3S-21</a>
+</td>
+                                            <td class="summary"><p>
+                No aparece el nombre de las direcciones en color negro ni un puntero rojo en la ubicación del punto &quot;Hasta&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 25/may/24 2:48 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+En la parte central de la interfaz aparece el mapa de navegación con la ruta desde la dirección &quot;Desde&quot; hasta la dirección &quot;Hasta&quot; en color azul con el tráfico y los quiebres señalados, el nombre de las direcciones en color negro y un puntero rojo en la ubicación del punto &quot;Hasta&quot; apuntando un circulo negro con relleno blanco y un punto negro en el centro y al inicio de la ruta en el punto &quot;desde&quot; se encuentra un círculo negro con fondo blanco.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+En la parte central de la interfaz aparece el mapa de navegación con la ruta desde la dirección &quot;Desde&quot; hasta la dirección &quot;Hasta&quot; en color azul con dos punteros rojos con letras blancas con las letras A en la ubicación “Desde” y B en la ubicación “Hasta”.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error ruta chrome.png|width=1427,height=533,alt=&quot;Captura de pantalla error ruta chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error ruta firefox.png|width=1433,height=570,alt=&quot;Captura de pantalla error ruta firefox.png&quot;!
+    </td>
+                                            <td class="environment">             Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-21" href="https://rmhdzr.atlassian.net/secure/attachment/10024/Captura+de+pantalla+error+ruta+chrome.png">
+            Captura de pantalla error ruta chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10019" rel="10019" data-issuekey="RMHR1G3S-20" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-20" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-20">RMHR1G3S-20</a>
+</td>
+                                            <td class="summary"><p>
+                El ícono del automóvil no es idéntico al del diseño
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 25/may/24 2:27 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Debajo del tiempo de espera gratuito se encuentra una imagen del BMW 750 en color gris con una línea negra y un detalle naranja a los costados de la llanta delantera.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Se muestra el ícono del BMW 750 en color gris pero sin una línea negra y un detalle naranja a los costados de la llanta delantera.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error detalles al costado de la llanta delantera chrome.png|width=1424,height=526,alt=&quot;Captura de pantalla error detalles al costado de la llanta delantera chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error detalles al costado de la llanta delantera firefox.png|width=1424,height=574,alt=&quot;Captura de pantalla error detalles al costado de la llanta delantera firefox.png&quot;!
+    </td>
+                                            <td class="environment">             Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-20" href="https://rmhdzr.atlassian.net/secure/attachment/10023/Captura+de+pantalla+error+detalles+al+costado+de+la+llanta+delantera+chrome.png">
+            Captura de pantalla error detalles al costado de la llanta delantera chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10018" rel="10018" data-issuekey="RMHR1G3S-19" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-19" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-19">RMHR1G3S-19</a>
+</td>
+                                            <td class="summary"><p>
+                No se encuentra el ícono de una persona caminando
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Lowest
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 25/may/24 2:15 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Se muestra el ícono de una persona caminando y la duración del viaje desde el automóvil hasta el punto &quot;Desde&quot;, en color gris.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+No se muestra el ícono de una persona caminando.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error ícono persona caminando chrome.png|width=1424,height=526,alt=&quot;Captura de pantalla error ícono persona caminando chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error ícono persona caminando firefox.png|width=1424,height=574,alt=&quot;Captura de pantalla error ícono persona caminando firefox.png&quot;!
+    </td>
+                                            <td class="environment">             Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-19" href="https://rmhdzr.atlassian.net/secure/attachment/10020/Captura+de+pantalla+error+%C3%ADcono+persona+caminando+chrome.png">
+            Captura de pantalla error ícono persona caminando chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10017" rel="10017" data-issuekey="RMHR1G3S-18" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-18" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-18">RMHR1G3S-18</a>
+</td>
+                                            <td class="summary"><p>
+                El temporizador no cuenta el tiempo de uso compartido del vehículo
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 11:12 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección 1917 Bay St en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 615 S Broadway en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar licencia de conducir<br/>
+<br/>
+“Nombre” Sam “Apellido” Williams “Fecha de nacimiento” 24.04.1889 “Número” 01 01 123456<br/>
+<br/>
+# Agregar tarjeta bancaria<br/>
+<br/>
+“Número de tarjeta” 1234 4321 1408 “Código” 12<br/>
+<br/>
+# Hacer clic en el botón de reservar<br/>
+# Esperar a que el tiempo de espera gratuito se agote<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+El temporizador comenzará a contar el tiempo de uso compartido del vehículo.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+El temporizador se detiene al faltar un segundo del tiempo de espera gratuito, no comienza a<br/>
+contar el tiempo de uso compartido del vehículo. <br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error temporizador tiempo de uso compartido del vehículo chrome.png|width=1429,height=522,alt=&quot;Captura de pantalla error temporizador tiempo de uso compartido del vehículo chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-18" href="https://rmhdzr.atlassian.net/secure/attachment/10019/Captura+de+pantalla+error+temporizador+tiempo+de+uso+compartido+del+veh%C3%ADculo+chrome.png">
+            Captura de pantalla error temporizador tiempo de uso compartido del vehículo chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10016" rel="10016" data-issuekey="RMHR1G3S-17" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-17" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-17">RMHR1G3S-17</a>
+</td>
+                                            <td class="summary"><p>
+                No es posible cancelar el viaje de forma gratuita
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 11:09 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección 1917 Bay St en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 615 S Broadway en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar licencia de conducir<br/>
+<br/>
+“Nombre” Sam “Apellido” Williams “Fecha de nacimiento” 24.04.1889 “Número” 01 01 123456<br/>
+<br/>
+# Agregar tarjeta bancaria<br/>
+<br/>
+“Número de tarjeta” 1234 4321 1408 “Código” 12<br/>
+<br/>
+# Hacer clic en el botón de reservar<br/>
+# Hacer clic en el botón de cancelar<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Al hacer clic en el botón &quot;Cancelar&quot; El viaje se cancela de forma gratuita.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al hacer clic en el botón “Cancelar” no sucede nada, por lo que no es posible cancelar el viaje de forma gratuita.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error no es posible cancelar el viaje de forma gratuita chrome.png|width=1427,height=524,alt=&quot;Captura de pantalla error no es posible cancelar el viaje de forma gratuita chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-17" href="https://rmhdzr.atlassian.net/secure/attachment/10017/Captura+de+pantalla+error+no+es+posible+cancelar+el+viaje+de+forma+gratuita+chrome.png">
+            Captura de pantalla error no es posible cancelar el viaje de forma gratuita chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10015" rel="10015" data-issuekey="RMHR1G3S-16" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-16" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-16">RMHR1G3S-16</a>
+</td>
+                                            <td class="summary"><p>
+                Al borrar las direcciones se borra toda la información
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 11:05 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección 1917 Bay St en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 615 S Broadway en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar licencia de conducir<br/>
+<br/>
+“Nombre” Sam “Apellido” Williams “Fecha de nacimiento” 24.04.1889 “Número” 01 01 123456<br/>
+<br/>
+# Agregar tarjeta bancaria<br/>
+<br/>
+“Número de tarjeta” 1234 4321 1408 “Código” 12<br/>
+<br/>
+# Borrar las direcciones &quot;Desde&quot; y &quot; Hasta&quot; <br/>
+<br/>
+# Hacer clic en el botón de reserva<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+En el centro de la pantalla aparecerá una ventana con el título &quot;Automóvil reservado&quot;. En su interior se encuentra la marca, número de placa, ícono y dirección del vehículo, así como el precio por minuto y el temporizador que muestra el tiempo de espera gratuito.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al borrar las direcciones se borra toda la información, por lo que no es posible reservar un vehículo.<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error borrar direcciones chrome.png|width=1433,height=528,alt=&quot;Captura de pantalla error borrar direcciones chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-16" href="https://rmhdzr.atlassian.net/secure/attachment/10047/Captura+de+pantalla+error+borrar+direcciones+chrome.png">
+            Captura de pantalla error borrar direcciones chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10014" rel="10014" data-issuekey="RMHR1G3S-15" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-15" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-15">RMHR1G3S-15</a>
+</td>
+                                            <td class="summary"><p>
+                No aparece la información esperada al hacer clic en el botón de reserva
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 10:59 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección 1917 Bay St en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 615 S Broadway en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar licencia de conducir<br/>
+<br/>
+“Nombre” Sam “Apellido” Williams “Fecha de nacimiento” 24.04.1889 “Número” 01 01 123456<br/>
+<br/>
+# Agregar tarjeta bancaria<br/>
+<br/>
+“Número de tarjeta” 1234 4321 1408 “Código” 12<br/>
+<br/>
+# Hacer clic en el botón de reservar<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+En el centro de la pantalla aparecerá una ventana con el título &quot;Automóvil reservado&quot;. En su interior se encuentra la marca, número de placa, ícono y dirección del vehículo, así como el costo del trayecto y el temporizador que muestra el tiempo de espera gratuito.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+En el centro de la pantalla aparece una ventana con el título &quot;Automóvil reservado&quot;. En su interior se encuentra el ícono y dirección del vehículo, así como el costo del trayecto y el temporizador que muestra el tiempo de espera gratuito, pero no muestra la marca y el número de placa.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error marca y número de placa chrome.png|width=1427,height=524,alt=&quot;Captura de pantalla error marca y número de placa chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-15" href="https://rmhdzr.atlassian.net/secure/attachment/10016/Captura+de+pantalla+error+marca+y+n%C3%BAmero+de+placa+chrome.png">
+            Captura de pantalla error marca y número de placa chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10013" rel="10013" data-issuekey="RMHR1G3S-14" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-14" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-14">RMHR1G3S-14</a>
+</td>
+                                            <td class="summary"><p>
+                No es posible agregar licencia de conducir al borrar las direcciones
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 10:45 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección 1917 Bay St en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 615 S Broadway en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Borrar las direcciones &quot;Desde&quot; y &quot; Hasta&quot; <br/>
+# Hacer clic en el botón de reservar<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Texto en el botón &quot;Reservar&quot;<br/>
+Agregar licencia de conducir y reservar<br/>
+<br/>
+Al hacer clic en el botón, se abre la ventana &quot;Agregar licencia de conducir&quot;<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+El botón de agregar licencia de conducir y reservar  no aparece  al no rellenar ninguno de los campos obligatorios del formulario de reserva y borrar las direcciones.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error al no llenar toda la información y borrar las direcciones firefox.png|width=1433,height=553,alt=&quot;Captura de pantalla error al no llenar toda la información y borrar las direcciones firefox.png&quot;!
+    </td>
+                                            <td class="environment">            Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-14" href="https://rmhdzr.atlassian.net/secure/attachment/10015/Captura+de+pantalla+error+al+no+llenar+toda+la+informaci%C3%B3n+y+borrar+las+direcciones+firefox.png">
+            Captura de pantalla error al no llenar toda la información y borrar las direcciones firefox.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10012" rel="10012" data-issuekey="RMHR1G3S-13" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-13" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-13">RMHR1G3S-13</a>
+</td>
+                                            <td class="summary"><p>
+                No es posible reservar un automóvil llenando todos los campos y borrando las direcciones
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 10:42 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección 1917 Bay St en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 615 S Broadway en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar licencia de conducir<br/>
+<br/>
+“Nombre” Sam “Apellido” Williams “Fecha de nacimiento” 24.04.1889 “Número” 01 01 123456<br/>
+<br/>
+# Agregar tarjeta bancaria<br/>
+<br/>
+“Número de tarjeta” 1234 4321 1408 “Código” 12<br/>
+<br/>
+# Borrar las direcciones &quot;Desde&quot; y &quot; Hasta&quot; <br/>
+# Hacer clic en el botón de reservar<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Texto en el botón &quot;Reservar&quot;<br/>
+Reservar<br/>
+<br/>
+Al hacer clic en el botón, se abre la ventana &quot;Automóvil reservado&quot;<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+El botón de reserva no aparece, al rellenar todos los campos obligatorios del formulario de reserva y borrar las direcciones se borra toda la información agregada y aparece la ventana principal para agregar direcciones.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error al agregar toda la información y borrar direcciones firefox.png|width=1433,height=553,alt=&quot;Captura de pantalla error al agregar toda la información y borrar direcciones firefox.png&quot;!
+    </td>
+                                            <td class="environment">            Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-13" href="https://rmhdzr.atlassian.net/secure/attachment/10014/Captura+de+pantalla+error+al+agregar+toda+la+informaci%C3%B3n+y+borrar+direcciones+firefox.png">
+            Captura de pantalla error al agregar toda la información y borrar direcciones firefox.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10011" rel="10011" data-issuekey="RMHR1G3S-12" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-12" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-12">RMHR1G3S-12</a>
+</td>
+                                            <td class="summary"><p>
+                Es posible introducir cualquier carácter diferente a un número en el campo &quot;Código&quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 10:27 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir r&amp;- en el campo “Código”  <br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+No es posible introducir cualquier carácter diferente a un número en el campo &quot;Código&quot;.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Es posible introducir cualquier carácter diferente a un número en el campo &quot;Código&quot;.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error caracteres diferentes a números en el código chrome.png|width=1433,height=521,alt=&quot;Captura de pantalla error caracteres diferentes a números en el código chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-12" href="https://rmhdzr.atlassian.net/secure/attachment/10013/Captura+de+pantalla+error+caracteres+diferentes+a+n%C3%BAmeros+en+el+c%C3%B3digo+chrome.png">
+            Captura de pantalla error caracteres diferentes a números en el código chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10010" rel="10010" data-issuekey="RMHR1G3S-11" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-11" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-11">RMHR1G3S-11</a>
+</td>
+                                            <td class="summary"><p>
+                Es posible introducir 3 números en el campo &quot;Código&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 10:25 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir 123 en el campo “Código”  <br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+No es posible introducir 3 números en el campo &quot;Código&quot;.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Es posible introducir 3 números en el campo &quot;Código&quot;.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error 3 números en el campo código chrome.png|width=1430,height=523,alt=&quot;Captura de pantalla error 3 números en el campo código chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-11" href="https://rmhdzr.atlassian.net/secure/attachment/10012/Captura+de+pantalla+error+3+n%C3%BAmeros+en+el+campo+c%C3%B3digo+chrome.png">
+            Captura de pantalla error 3 números en el campo código chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10009" rel="10009" data-issuekey="RMHR1G3S-10" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-10" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-10">RMHR1G3S-10</a>
+</td>
+                                            <td class="summary"><p>
+                 No se habilita el botón &quot;Agregar tarjeta&quot; al introducir 2 números en el campo &quot;Código&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 23/may/24 10:06 PM </td>
+                                            <td class="description">             No se habilita el botón &quot;Agregar tarjeta&quot; al introducir 2 números en el campo &quot;Código&quot;, es necesario agregar el número de tarjeta para que se habilite el botón.
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail"></td>
+                    </tr>
+
+
+                <tr id="issuerow10008" rel="10008" data-issuekey="RMHR1G3S-9" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-9" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-9">RMHR1G3S-9</a>
+</td>
+                                            <td class="summary"><p>
+                Es posible introducir cualquier carácter diferente a un número en el campo &quot;Número de tarjeta&quot;.
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 10:03 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir asder·$%/&amp;/&amp; en el campo “Número de tarjeta”  <br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+No es posible introducir cualquier carácter diferente a un número en el campo &quot;Número de tarjeta&quot;.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Es posible introducir cualquier carácter diferente a un número como letras y caracteres especiales en el campo &quot;Número de tarjeta&quot;.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error caracteres diferentes a números en el número de tarjeta chrome.png|width=1423,height=527,alt=&quot;Captura de pantalla error caracteres diferentes a números en el número de tarjeta chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-9" href="https://rmhdzr.atlassian.net/secure/attachment/10011/Captura+de+pantalla+error+caracteres+diferentes+a+n%C3%BAmeros+en+el+n%C3%BAmero+de+tarjeta+chrome.png">
+            Captura de pantalla error caracteres diferentes a números en el número de tarjeta chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10007" rel="10007" data-issuekey="RMHR1G3S-8" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-8" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-8">RMHR1G3S-8</a>
+</td>
+                                            <td class="summary"><p>
+                Es posible introducir 13 números en el campo &quot;Número de tarjeta&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 10:00 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir 1234123412345  en el campo “Número de tarjeta” <br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+No es posible introducir 13 números en el campo &quot;Número de tarjeta&quot;.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Es posible introducir 13 números en el campo “Número de tarjeta”.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error 13 números en el número de tarjeta.png|width=1429,height=532,alt=&quot;Captura de pantalla error 13 números en el número de tarjeta.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-8" href="https://rmhdzr.atlassian.net/secure/attachment/10010/Captura+de+pantalla+error+13+n%C3%BAmeros+en+el+n%C3%BAmero+de+tarjeta.png">
+            Captura de pantalla error 13 números en el número de tarjeta.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10006" rel="10006" data-issuekey="RMHR1G3S-7" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-7" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-7">RMHR1G3S-7</a>
+</td>
+                                            <td class="summary"><p>
+                Se habilita el botón &quot;Agregar tarjeta&quot; al introducir 11 números en el campo &quot;Número de tarjeta&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 23/may/24 9:56 PM </td>
+                                            <td class="description">            El botón “Agregar tarjeta” se habilita al agregar 11 números en el campo número de tarjeta siempre que el campo “Código” esté completo.
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail"></td>
+                    </tr>
+
+
+                <tr id="issuerow10005" rel="10005" data-issuekey="RMHR1G3S-6" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-6" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-6">RMHR1G3S-6</a>
+</td>
+                                            <td class="summary"><p>
+                No se separan los números automáticamente al introducir 12 números y quitar el foco.
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 9:53 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir 123412341234 en el campo “Número de tarjeta”<br/>
+# Quitar el foco del número de tarjeta<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Se agregan 2 espacios separando los números en 3 cifras de 4 números automáticamente. <br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+No se agregan 2 espacios separando los números en 3 cifras de 4 números automáticamente. <br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error espacios en número de tarjeta chrome.png|width=1431,height=531,alt=&quot;Captura de pantalla error espacios en número de tarjeta chrome.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-6" href="https://rmhdzr.atlassian.net/secure/attachment/10009/Captura+de+pantalla+error+espacios+en+n%C3%BAmero+de+tarjeta+chrome.png">
+            Captura de pantalla error espacios en número de tarjeta chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10004" rel="10004" data-issuekey="RMHR1G3S-5" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-5" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-5">RMHR1G3S-5</a>
+</td>
+                                            <td class="summary"><p>
+                No se habilita el botón &quot;Agregar tarjeta&quot; al introducir 12 números en el campo &quot;Número de tarjeta&quot; 
+    </p>
+</td>
+                                            <td class="assignee">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Finalizada&lt;/span&gt;">Finalizada</span>    </td>
+                                            <td class="resolution">    Listo
+</td>
+                                            <td class="created"> 23/may/24 9:47 PM </td>
+                                            <td class="description">            No se habilita el botón &quot;Agregar tarjeta&quot; al introducir 12 números en el campo &quot;Número de tarjeta&quot;, es necesario llenar el campo “Código” para que se habilite el botón.
+    </td>
+                                            <td class="environment">            Google Chrome 800x600
+    </td>
+                                            <td class="thumbnail"></td>
+                    </tr>
+
+
+                <tr id="issuerow10003" rel="10003" data-issuekey="RMHR1G3S-4" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-4" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-4">RMHR1G3S-4</a>
+</td>
+                                            <td class="summary"><p>
+                No aparece la ventana emergente con el título &quot;Viaje cancelado&quot;
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 8:09 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar licencia de conducir<br/>
+#  Introducir “Nombre” Sam “Apellido” Williams “Fecha de nacimiento” 24.04.1889 “Número” 01 01 123456<br/>
+# Agregar tarjeta bancaria<br/>
+# Introducir “Número de tarjeta” 1234 4321 1408 “Código” 12<br/>
+# Hacer clic en el botón de reserva<br/>
+# Hacer clic en el botón “Cancelar”<br/>
+# Hacer clic en el botón “Sí”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Aparece la ventana emergente con el título &quot;Viaje cancelado&quot; y un botón debajo de &quot;Entendido&quot; de color azul con letras blancas.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+No existe la ventana emergente “¿Seguro que quieres cancelar el viaje?” con los botones “No” y “Sí”, por lo que no es posible seleccionar la opción “Sí” para que aparezca la ventana emergente “Viaje cancelado”.<br/>
+<br/>
+!Captura de pantalla error ventana emergente Seguro que quieres cancelar el viaje chrome.png|width=1427,height=520,alt=&quot;Captura de pantalla error ventana emergente Seguro que quieres cancelar el viaje chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error ventana emergente Seguro que quieres cancelar el viaje firefox.png|width=1428,height=565,alt=&quot;Captura de pantalla error ventana emergente Seguro que quieres cancelar el viaje firefox.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-4" href="https://rmhdzr.atlassian.net/secure/attachment/10007/Captura+de+pantalla+error+ventana+emergente+Seguro+que+quieres+cancelar+el+viaje+chrome.png">
+            Captura de pantalla error ventana emergente Seguro que quieres cancelar el viaje chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10002" rel="10002" data-issuekey="RMHR1G3S-3" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-3" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-3">RMHR1G3S-3</a>
+</td>
+                                            <td class="summary"><p>
+                No es posible cancelar el viaje
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 7:58 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+# Agregar licencia de conducir<br/>
+<br/>
+“Nombre” Sam “Apellido” Williams “Fecha de nacimiento” 24.04.1889 “Número” 01 01 123456<br/>
+<br/>
+# Agregar tarjeta bancaria<br/>
+<br/>
+“Número de tarjeta” 1234 4321 1408 “Código” 12<br/>
+<br/>
+# Hacer clic en el botón de reserva<br/>
+# Hacer clic en el botón “Cancelar”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Aparece la ventana emergente con la leyenda &quot;¿Seguro que quieres cancelar el viaje?&quot; con dos botones rectangulares con las esquinas redondeadas debajo, uno del lado izquierdo color gris con letras blancas con la opción &quot;No&quot; y el otro del lado derecho color azul con las letras blancas con la opción &quot;Sí&quot;.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+Al hacer clic en el botón “Cancelar” no se realiza ninguna acción, no aparece la ventana emergente con la leyenda &quot;¿Seguro que quieres cancelar el viaje?&quot; con dos botones rectangulares con las esquinas redondeadas debajo, uno del lado izquierdo color gris con letras blancas con la opción &quot;No&quot; y el otro del lado derecho color azul con las letras blancas con la opción &quot;Sí&quot;.<br/>
+<br/>
+!Captura de pantalla error pantalla emergente al cancelar el viaje chrome.png|width=50%,alt=&quot;Captura de pantalla error ventana emergente al cancelar el viaje chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error pantalla emergente al cancelar el viaje firefox.png|width=1428,height=565,alt=&quot;Captura de pantalla error pantalla emergente al cancelar el viaje firefox.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-3" href="https://rmhdzr.atlassian.net/secure/attachment/10005/Captura+de+pantalla+error+pantalla+emergente+al+cancelar+el+viaje+chrome.png">
+            Captura de pantalla error pantalla emergente al cancelar el viaje chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10001" rel="10001" data-issuekey="RMHR1G3S-2" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-2" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-2">RMHR1G3S-2</a>
+</td>
+                                            <td class="summary"><p>
+                No aparece el ícono del automóvil más cercano en el mapa de navegación
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 7:48 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Se selecciona el automóvil más cercano en el mapa, su ícono se hace más grande a la vez que aparece el recuadro negro con la marca del automóvil sobre el ícono.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+No se muestra el ícono del automóvil más cercano en el mapa de navegación, por lo que no se hace más grande ni aparece un recuadro negro con la marca del automóvil sobre el ícono.<br/>
+<br/>
+!Captura de pantalla error ícono automóvil más cercano chrome.png|width=1427,height=533,alt=&quot;Captura de pantalla error ícono automóvil más cercano chrome.png&quot;!<br/>
+<br/>
+!Captura de pantalla error ícono automóvil más cercano firefox.png|width=1433,height=570,alt=&quot;Captura de pantalla error ícono automóvil más cercano firefox.png&quot;!
+    </td>
+                                            <td class="environment">            Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-2" href="https://rmhdzr.atlassian.net/secure/attachment/10003/Captura+de+pantalla+error+%C3%ADcono+autom%C3%B3vil+m%C3%A1s+cercano+chrome.png">
+            Captura de pantalla error ícono automóvil más cercano chrome.png
+        </a>
+    </td>
+                    </tr>
+
+
+                <tr id="issuerow10000" rel="10000" data-issuekey="RMHR1G3S-1" class="issuerow">
+                                            <td class="issuetype">    Error
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="RMHR1G3S-1" href="https://rmhdzr.atlassian.net/browse/RMHR1G3S-1">RMHR1G3S-1</a>
+</td>
+                                            <td class="summary"><p>
+                No aparecen los íconos de los automóviles disponibles en el mapa de navegación
+    </p>
+</td>
+                                            <td class="assignee">    <em>sin asignar</em>
+</td>
+                                            <td class="reporter">            Rosa María Hernández Ramírez
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Tareas por hacer&lt;/span&gt;">Tareas por hacer</span>    </td>
+                                            <td class="resolution">    <em>Sin resolver</em>
+</td>
+                                            <td class="created"> 23/may/24 7:29 PM </td>
+                                            <td class="description">            *Pasos*<br/>
+<br/>
+# Introducir la dirección East 2nd Street, 601 en el campo &quot;Desde&quot;<br/>
+# Introducir la dirección 1300 1st St en el campo &quot;Hasta&quot;<br/>
+# Elegir el modo de ruta &quot;personal&quot;<br/>
+# Elegir &quot;compartir un automóvil&quot; como tipo de transporte<br/>
+# Hacer clic en el botón &quot;reservar”<br/>
+<br/>
+*Resultado esperado*<br/>
+<br/>
+Se muestran los íconos de todos los automóviles disponibles en el mapa de navegación.<br/>
+<br/>
+*Resultado actual*<br/>
+<br/>
+No se muestran los íconos de todos los automóviles disponibles en el mapa de navegación.<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error íconos de automóviles chrome.png|width=1427,height=533,alt=&quot;Captura de pantalla error íconos de automóviles chrome.png&quot;!<br/>
+<br/>
+<br/>
+<br/>
+!Captura de pantalla error íconos automóviles firefox.png|width=1433,height=570,alt=&quot;Captura de pantalla error íconos automóviles firefox.png&quot;!
+    </td>
+                                            <td class="environment">             Google Chrome 800x600<br/>
+<br/>
+Firefox 1920x1080
+    </td>
+                                            <td class="thumbnail">            <a aria-label="Seleccionar para descargar la imagen para RMHR1G3S-1" href="https://rmhdzr.atlassian.net/secure/attachment/10001/Captura+de+pantalla+error+%C3%ADconos+autom%C3%B3viles+firefox.png">
+            Captura de pantalla error íconos automóviles firefox.png
+        </a>
+    </td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="12"><font size="1">
+        Generado a las Wed Oct 23 03:43:59 UTC 2024 por Rosa María Hernández Ramírez usando JIRA 1001.0.0-SNAPSHOT#100270-rev:041f2cd34af8ee4f4b14e12c286b1618fe95ff70.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
